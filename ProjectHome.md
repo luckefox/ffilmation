@@ -1,0 +1,11 @@
+The FFilmation Engine is an AS3 isometric programing engine, focused mainly on game development. The aim of the project is providing a robust development platform, where game designers can work on the game’s details and forget about the render engine. It is intended to be really usable from a “real production scenario” point of view. This means:
+
+  * Have a programming interface as small and easy as possible, no matter how complex the internal code is. From a software engineering point of view, the OO structure may not be as correct and clean as it could have been. It is not messy, but several decisions where made that improved performance and simplicity at the cost of breaking some “good OO programming” conventions.
+
+  * Rendering performance is a major concern when designing all the algorythms. Some of them have been rewritten 4 o 5 times from scratch until one fastest enought was found. If it doesn’t perform well, it is not usable. We’ve all seen several impressive actionscript demos that look really cool and invite to be used in your next project. But then if the effect takes 90% of your CPU, you can’t build anything on top of that.
+
+  * Graphic designers should be able to work on the application’s ( game or not ) environments without any programming skills, visually, and with almost immediate previews of what they are doing. Using the engine should be fun to some degree. If you have this terrific engine and adding a wall to your dungeon means you have to write 10 lines of OO gibberish, lazyness will eventually win you over. If art directors can draw and place the walls and lights an floors and enemies and see them appearing onscreen, you have more chances of reaching your deadline.
+
+  * Flash has built-in drawing and animation tools. You should be able to take advantage of them !!
+
+All this is important because in reality projects depend on limited resources. Resources are money and time, but also the enthusiasm of indie developers or single individuals doing stuff “for fun” in their bedrooms. Projects, specially the “for fun” ones, have more chances of completion if the production process is gratifying to some degree.
